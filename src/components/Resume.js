@@ -2,7 +2,7 @@ import ResumeImg from '../assets/resume.jpg';
 import ResumePDF from '../assets/RAM SUDHARSAN - React Developer.pdf';
 export default function Resume () {
 
-    return <section id='resume' className='flex flex-col md:flex-row bg-secondary px-5'>
+    return <section id='resume' className='flex flex-col items-center min-h-screen md:flex-row bg-secondary px-5'>
         <div className='py-5 md:w-1/2 flex justify-center md:justify-end'>
             <img className='w-[300px]' src={ResumeImg} />
         </div>

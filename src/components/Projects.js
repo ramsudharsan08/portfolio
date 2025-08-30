@@ -1,6 +1,6 @@
 import websiteImg1 from '../assets/ecommerce-websites.jpg';
 import websiteImg2 from '../assets/newscape.webp';
-import websiteImg3 from '../assets/website-blog.jpg';
+import websiteImg3 from '../assets/train-ticket-date-calculator.jpeg';
 
 export default function Projects() {
 
@@ -15,11 +15,16 @@ export default function Projects() {
                 image: websiteImg2,
                 description: 'Discover breaking news, Built with React JS',
                 link: 'https://newsscape.netlify.app/'
+            },
+             {
+                image: websiteImg3,
+                description: 'Effortlessly calculate train ticket dates and set remainders. Built with React JS.',
+                link: 'https://train-booking-calc.netlify.app/'
             }
         ]
     }
 
-    return <section id='projects' className="flex  flex-col py-20 px-5 justify-center bg-primary text-white">
+    return <section id='projects' className="flex  flex-col py-20 px-5 justify-center items-center min-h-screen bg-primary text-white">
         <div className="w-full">
             <div className="flex flex-col px-10 py-5">
                 <h1 className="text-4xl border-b-4 border-secondary mb-5 w-[150px] font-bold">Projects</h1>

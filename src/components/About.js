@@ -7,7 +7,7 @@ export default function About () {
         line3: "HTML5 | CSS3 | Less | Tailwind CSS | Bootstrap | Web Accessibility | Cross-Browser Compatibility | Hugo (SSO) | JavaScript(ES6+) | React 18 | Redux | React Router | Node.js | Azure DevOps (Boards, Pipelines) | CICD | Git | NPM | Agile/Scrum | Test-Driven Development (TDD)"
     }
 
-    return <section className='flex flex-col md:flex-row bg-secondary px-5' id='about'>
+    return <section className='flex flex-col items-center md:flex-row bg-secondary px-5 min-h-screen' id='about'>
         <div className='py-5 md:w-1/2'>
             <img src={AboutImg} />
         </div>
