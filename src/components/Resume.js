@@ -1,5 +1,5 @@
 import ResumeImg from '../assets/resume.jpg';
-import ResumePDF from '../assets/RAM SUDHARSAN - React Developer.pdf';
+import ResumePDF from '../assets/RAM_SUDHARSAN_React.pdf';
 export default function Resume () {
 
     return <section id='resume' className='flex flex-col items-center min-h-screen md:flex-row bg-secondary px-5'>
